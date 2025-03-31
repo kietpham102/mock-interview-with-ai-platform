@@ -1,0 +1,15 @@
+version: '3'
+
+services:
+  app:
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=production
+    restart: always
+    # If you want to mount the .env.local file instead of building it into the image
+    # volumes:
+    #   - ./.env.local:/app/.env.local 

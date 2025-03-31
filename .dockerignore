@@ -1,0 +1,39 @@
+# Version control
+.git
+.gitignore
+
+# Dependencies
+node_modules
+npm-debug.log
+yarn-error.log
+
+# Next.js build output
+.next
+out
+
+# Local env files (except .env.local which we need for the build)
+# .env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Temporary files
+.DS_Store
+*.pem
+
+# IDE
+.idea
+.vscode
+*.swp
+*.swo
+
+# Logs
+logs
+*.log
+
+# Coverage directory
+coverage
+
+# Build directories
+dist
+build 
